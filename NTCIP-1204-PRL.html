@@ -1,0 +1,3422 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=unicode">
+
+<style>
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+h1
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 1 Char";
+	margin-top:24.0pt;
+	margin-right:0in;
+	margin-bottom:24.0pt;
+	margin-left:0in;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:12.0pt;
+	font-family:"Arial Bold",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";}
+
+table {
+  border: 1px solid #333;
+  border-collapse: collapse;
+}
+tr {
+  page-break-inside:avoid;
+}
+th {
+  padding: 1.5px;
+  font-family:"Arial",sans-serif;
+  font-size:10.0pt;
+  font-weight: bold;
+  text-align: center;
+    } 
+td {
+  padding: 1.5px;
+  font-family:"Arial",sans-serif;
+  font-size:10.0pt;
+  font-weight: normal;
+  text-align: left;
+  }
+table.prlTable, table.rtmTable {
+	width:100%;
+	border: double;
+}
+th.unsh {
+  width:13%;
+  border-bottom: 1.5pt solid #333;
+  border-right: 1.0pt solid #333;
+}
+th.unh {
+  width:7%;
+  border-left: 1.0pt solid #333;
+  border-bottom: 1.5pt solid #333;
+  border-right: 1.0pt solid #333;
+}
+th.frsh {
+  width:9%;
+  border-left: 1.0pt solid #333;
+  border-bottom: 1.5pt solid #333;
+  border-right: 1.0pt solid #333;
+}
+th.frh {
+  width:15%;
+  border-left: 1.0pt solid #333;
+  border-bottom: 1.5pt solid #333;
+  border-right: 1.0pt solid #333;
+}
+th.confh {
+  width:14%;
+  border-left: 1.0pt solid #333;
+  border-bottom: 1.5pt solid #333;
+  border-right: 1.0pt solid #333;
+}
+th.sprh {
+  width:13%;
+  border-left: 1.0pt solid #333;
+  border-bottom: 1.5pt solid #333;
+  border-right: 1.0pt solid #333;
+}
+th.addlh {
+  width:27%;
+  border-left: 1.0pt solid #333;
+  border-bottom: 1.5pt solid #333;
+}
+th.objh {
+  width:30%;
+  border-left: 1.0pt solid #333;
+  border-bottom: 1.5pt solid #333;
+  border-right: 1.0pt solid #333;
+}
+th.nameh {
+  width:46%;
+  border-left: 1.0pt solid #333;
+  border-bottom: 1.5pt solid #333;
+}
+td.sum-left {
+  border-top: 1.5pt solid #333;
+  border-right: 0.75pt solid #333;
+}
+td.sum-middle {
+  border-left: 0.75pt solid #333;
+  border-top: 1.5pt solid #333;
+  border-right: 0.75pt solid #333;
+}
+td.sum-right {
+  border-left: 0.75pt solid #333;
+  border-top: 1.5pt solid #333;
+}
+td.left {
+  border-top: 0.75pt solid #333;
+  border-right: 0.75pt solid #333;
+}
+td.middle {
+  border-left: 0.75pt solid #333;
+  border-top: 0.75pt solid #333;
+  border-right: 0.75pt solid #333;
+}
+td.right {
+  border-left: 0.75pt solid #333;
+  border-top: 0.75pt solid #333;
+}
+td.left-empty {
+  border-right: 0.75pt solid #333;
+}
+td.empty {
+  border-left: 0.75pt solid #333;
+  border-right: 0.75pt solid #333;
+}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+</style>
+
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <table class="prlTable">
+      <thead>
+        <tr class="PRLRow" style="background:#FFFF99;">
+          <th class="unsh">User Need<br />Section<br />Number</th>
+		  <th class="unh">User Need</th>
+		  <th class="frsh">FR Section<br />Number</th>
+          <th class="frh">Functional<br />Requirement</th>
+          <th class="confh">Conformance</th>
+		  <th class="sprh">Support /<br />Project<br />Requirement</th>
+          <th class="addlh">Additional Project Requirements</th>
+        </tr>
+      </thead>
+      <tbody>
+        	<tr class="PRLRow" style="background:darkgray;">
+				<td class="sum-left">2.3.7</td>
+				<td class="sum-middle" colspan="3">ESS Characteristics</td>
+				<td class="sum-middle"></td>
+				<td class="sum-middle">		Yes
+</td>
+				<td class="sum-right"></td>
+			</tr>
+        	<tr class="PRLRow" style="background:lightgray;">
+				<td class="sum-left">
+				2.3.7.
+				</td>
+				<td class="sum-middle" colspan="3"><p>a) Permanent</p></td>
+				<td class="sum-middle">O.1 (1)</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td>
+			</tr>
+        	<tr class="PRLRow" style="background:lightgray;">
+				<td class="sum-left">
+				2.3.7.
+				</td>
+				<td class="sum-middle" colspan="3"><p>b) Transportable</p></td>
+				<td class="sum-middle">O.1 (1)</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td>
+			</tr>
+        	<tr class="PRLRow" style="background:lightgray;">
+				<td class="sum-left">
+				2.3.7.
+				</td>
+				<td class="sum-middle" colspan="3"><p>c) Mobile</p></td>
+				<td class="sum-middle">O.1 (1)</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td>
+			</tr>
+        	<tr class="PRLRow" style="background:darkgray;"> 
+				<td class="sum-left">ISO 26048-1, &sect;6.1</td>
+				<td class="sum-middle" colspan="3">Authenticate users</td>
+				<td class="sum-middle">M</td>
+				<td class="sum-middle">		Yes
+</td>
+				<td class="sum-right"></td> 
+			</tr>
+			<tr class="PRLRow">
+				<td class="left">&nbsp;</td>
+				<td class="middle">&nbsp;</td>
+				<td class="middle" colspan="5">See ISO 26048-1 NTFT and FTRT tables (available at <a href="https://standards.iso.org/iso/ts/26048/-1/ed-1/en/">https://standards.iso.org/iso/ts/26048/-1/ed-1/en/</a>)</td>
+			</tr>
+        	<tr class="PRLRow" style="background:darkgray;"> 
+				<td class="sum-left">ISO 26048-1, &sect;6.2</td>
+				<td class="sum-middle" colspan="3">Control access to data</td>
+				<td class="sum-middle">M</td>
+				<td class="sum-middle">		Yes
+</td>
+				<td class="sum-right"></td> 
+			</tr>
+			<tr class="PRLRow">
+				<td class="left">&nbsp;</td>
+				<td class="middle">&nbsp;</td>
+				<td class="middle" colspan="5">See ISO 26048-1 NTFT and FTRT tables (available at <a href="https://standards.iso.org/iso/ts/26048/-1/ed-1/en/">https://standards.iso.org/iso/ts/26048/-1/ed-1/en/</a>)</td>
+			</tr>
+        	<tr class="PRLRow" style="background:darkgray;"> 
+				<td class="sum-left">ISO 26048-1, &sect;6.3</td>
+				<td class="sum-middle" colspan="3">Monitor failed access to the field device</td>
+				<td class="sum-middle">M</td>
+				<td class="sum-middle">		Yes
+</td>
+				<td class="sum-right"></td> 
+			</tr>
+			<tr class="PRLRow">
+				<td class="left">&nbsp;</td>
+				<td class="middle">&nbsp;</td>
+				<td class="middle" colspan="5">See ISO 26048-1 NTFT and FTRT tables (available at <a href="https://standards.iso.org/iso/ts/26048/-1/ed-1/en/">https://standards.iso.org/iso/ts/26048/-1/ed-1/en/</a>)</td>
+			</tr>
+        	<tr class="PRLRow" style="background:darkgray;"> 
+				<td class="sum-left">ISO 26048-1, &sect;6.4</td>
+				<td class="sum-middle" colspan="3">Manage the field device</td>
+				<td class="sum-middle">M</td>
+				<td class="sum-middle">		Yes
+</td>
+				<td class="sum-right"></td> 
+			</tr>
+			<tr class="PRLRow">
+				<td class="left">&nbsp;</td>
+				<td class="middle">&nbsp;</td>
+				<td class="middle" colspan="5">See ISO 26048-1 NTFT and FTRT tables (available at <a href="https://standards.iso.org/iso/ts/26048/-1/ed-1/en/">https://standards.iso.org/iso/ts/26048/-1/ed-1/en/</a>)</td>
+			</tr>
+        	<tr class="PRLRow" style="background:darkgray;"> 
+				<td class="sum-left">ISO 26048-1, &sect;6.5.2.1</td>
+				<td class="sum-middle" colspan="3">Monitor field device doors</td>
+				<td class="sum-middle">M</td>
+				<td class="sum-middle">		Yes
+</td>
+				<td class="sum-right"></td> 
+			</tr>
+			<tr class="PRLRow">
+				<td class="left">&nbsp;</td>
+				<td class="middle">&nbsp;</td>
+				<td class="middle" colspan="5">See ISO 26048-1 NTFT and FTRT tables (available at <a href="https://standards.iso.org/iso/ts/26048/-1/ed-1/en/">https://standards.iso.org/iso/ts/26048/-1/ed-1/en/</a>)</td>
+			</tr>
+        	<tr class="PRLRow" style="background:darkgray;"> 
+				<td class="sum-left">ISO 26048-1, &sect;6.5.2.2</td>
+				<td class="sum-middle" colspan="3">Monitor field device enclosure air temperature</td>
+				<td class="sum-middle">O</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td> 
+			</tr>
+			<tr class="PRLRow">
+				<td class="left">&nbsp;</td>
+				<td class="middle">&nbsp;</td>
+				<td class="middle" colspan="5">See ISO 26048-1 NTFT and FTRT tables (available at <a href="https://standards.iso.org/iso/ts/26048/-1/ed-1/en/">https://standards.iso.org/iso/ts/26048/-1/ed-1/en/</a>)</td>
+			</tr>
+        	<tr class="PRLRow" style="background:darkgray;"> 
+				<td class="sum-left">ISO 26048-1, &sect;6.5.2.3</td>
+				<td class="sum-middle" colspan="3">Monitor field device processor temperature</td>
+				<td class="sum-middle">O</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td> 
+			</tr>
+			<tr class="PRLRow">
+				<td class="left">&nbsp;</td>
+				<td class="middle">&nbsp;</td>
+				<td class="middle" colspan="5">See ISO 26048-1 NTFT and FTRT tables (available at <a href="https://standards.iso.org/iso/ts/26048/-1/ed-1/en/">https://standards.iso.org/iso/ts/26048/-1/ed-1/en/</a>)</td>
+			</tr>
+        	<tr class="PRLRow" style="background:darkgray;"> 
+				<td class="sum-left">ISO 26048-1, &sect;6.5.2.4</td>
+				<td class="sum-middle" colspan="3">Monitor field device enclosure relative humidity</td>
+				<td class="sum-middle">O</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td> 
+			</tr>
+			<tr class="PRLRow">
+				<td class="left">&nbsp;</td>
+				<td class="middle">&nbsp;</td>
+				<td class="middle" colspan="5">See ISO 26048-1 NTFT and FTRT tables (available at <a href="https://standards.iso.org/iso/ts/26048/-1/ed-1/en/">https://standards.iso.org/iso/ts/26048/-1/ed-1/en/</a>)</td>
+			</tr>
+        	<tr class="PRLRow" style="background:darkgray;"> 
+				<td class="sum-left">ISO 26048-1, &sect;6.5.3.1</td>
+				<td class="sum-middle" colspan="3">Manage field device fans</td>
+				<td class="sum-middle">O</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td> 
+			</tr>
+			<tr class="PRLRow">
+				<td class="left">&nbsp;</td>
+				<td class="middle">&nbsp;</td>
+				<td class="middle" colspan="5">See ISO 26048-1 NTFT and FTRT tables (available at <a href="https://standards.iso.org/iso/ts/26048/-1/ed-1/en/">https://standards.iso.org/iso/ts/26048/-1/ed-1/en/</a>)</td>
+			</tr>
+        	<tr class="PRLRow" style="background:darkgray;"> 
+				<td class="sum-left">ISO 26048-1, &sect;6.5.3.2</td>
+				<td class="sum-middle" colspan="3">Manage field device heaters</td>
+				<td class="sum-middle">O</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td> 
+			</tr>
+			<tr class="PRLRow">
+				<td class="left">&nbsp;</td>
+				<td class="middle">&nbsp;</td>
+				<td class="middle" colspan="5">See ISO 26048-1 NTFT and FTRT tables (available at <a href="https://standards.iso.org/iso/ts/26048/-1/ed-1/en/">https://standards.iso.org/iso/ts/26048/-1/ed-1/en/</a>)</td>
+			</tr>
+        	<tr class="PRLRow" style="background:darkgray;"> 
+				<td class="sum-left">ISO 26048-1, &sect;6.5.3.3</td>
+				<td class="sum-middle" colspan="3">Manage field device dehumidifiers</td>
+				<td class="sum-middle">O</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td> 
+			</tr>
+			<tr class="PRLRow">
+				<td class="left">&nbsp;</td>
+				<td class="middle">&nbsp;</td>
+				<td class="middle" colspan="5">See ISO 26048-1 NTFT and FTRT tables (available at <a href="https://standards.iso.org/iso/ts/26048/-1/ed-1/en/">https://standards.iso.org/iso/ts/26048/-1/ed-1/en/</a>)</td>
+			</tr>
+        	<tr class="PRLRow" style="background:darkgray;"> 
+				<td class="sum-left">ISO 26048-1, &sect;6.5.3.4</td>
+				<td class="sum-middle" colspan="3">Manage field device air conditioners</td>
+				<td class="sum-middle">O</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td> 
+			</tr>
+			<tr class="PRLRow">
+				<td class="left">&nbsp;</td>
+				<td class="middle">&nbsp;</td>
+				<td class="middle" colspan="5">See ISO 26048-1 NTFT and FTRT tables (available at <a href="https://standards.iso.org/iso/ts/26048/-1/ed-1/en/">https://standards.iso.org/iso/ts/26048/-1/ed-1/en/</a>)</td>
+			</tr>
+        	<tr class="PRLRow" style="background:darkgray;"> 
+				<td class="sum-left">ISO 26048-1, &sect;6.5.3.5</td>
+				<td class="sum-middle" colspan="3">Manage field device thermostat</td>
+				<td class="sum-middle">O</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td> 
+			</tr>
+			<tr class="PRLRow">
+				<td class="left">&nbsp;</td>
+				<td class="middle">&nbsp;</td>
+				<td class="middle" colspan="5">See ISO 26048-1 NTFT and FTRT tables (available at <a href="https://standards.iso.org/iso/ts/26048/-1/ed-1/en/">https://standards.iso.org/iso/ts/26048/-1/ed-1/en/</a>)</td>
+			</tr>
+        	<tr class="PRLRow" style="background:darkgray;"> 
+				<td class="sum-left">ISO 26048-1, &sect;6.5.4.1</td>
+				<td class="sum-middle" colspan="3">Monitor field device power supplies</td>
+				<td class="sum-middle">O</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td> 
+			</tr>
+			<tr class="PRLRow">
+				<td class="left">&nbsp;</td>
+				<td class="middle">&nbsp;</td>
+				<td class="middle" colspan="5">See ISO 26048-1 NTFT and FTRT tables (available at <a href="https://standards.iso.org/iso/ts/26048/-1/ed-1/en/">https://standards.iso.org/iso/ts/26048/-1/ed-1/en/</a>)</td>
+			</tr>
+        	<tr class="PRLRow" style="background:darkgray;"> 
+				<td class="sum-left">ISO 26048-1, &sect;6.5.4.2</td>
+				<td class="sum-middle" colspan="3">Monitor field device mains power</td>
+				<td class="sum-middle">O</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td> 
+			</tr>
+			<tr class="PRLRow">
+				<td class="left">&nbsp;</td>
+				<td class="middle">&nbsp;</td>
+				<td class="middle" colspan="5">See ISO 26048-1 NTFT and FTRT tables (available at <a href="https://standards.iso.org/iso/ts/26048/-1/ed-1/en/">https://standards.iso.org/iso/ts/26048/-1/ed-1/en/</a>)</td>
+			</tr>
+        	<tr class="PRLRow" style="background:darkgray;"> 
+				<td class="sum-left">ISO 26048-1, &sect;6.5.4.3</td>
+				<td class="sum-middle" colspan="3">Monitor field device battery power</td>
+				<td class="sum-middle">O</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td> 
+			</tr>
+			<tr class="PRLRow">
+				<td class="left">&nbsp;</td>
+				<td class="middle">&nbsp;</td>
+				<td class="middle" colspan="5">See ISO 26048-1 NTFT and FTRT tables (available at <a href="https://standards.iso.org/iso/ts/26048/-1/ed-1/en/">https://standards.iso.org/iso/ts/26048/-1/ed-1/en/</a>)</td>
+			</tr>
+        	<tr class="PRLRow" style="background:darkgray;"> 
+				<td class="sum-left">ISO 26048-1, &sect;6.5.4.4</td>
+				<td class="sum-middle" colspan="3">Monitor field device generator power</td>
+				<td class="sum-middle">O</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td> 
+			</tr>
+			<tr class="PRLRow">
+				<td class="left">&nbsp;</td>
+				<td class="middle">&nbsp;</td>
+				<td class="middle" colspan="5">See ISO 26048-1 NTFT and FTRT tables (available at <a href="https://standards.iso.org/iso/ts/26048/-1/ed-1/en/">https://standards.iso.org/iso/ts/26048/-1/ed-1/en/</a>)</td>
+			</tr>
+        	<tr class="PRLRow" style="background:darkgray;"> 
+				<td class="sum-left">ISO 26048-1, &sect;6.5.4.5</td>
+				<td class="sum-middle" colspan="3">Monitor field device solar power</td>
+				<td class="sum-middle">O</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td> 
+			</tr>
+			<tr class="PRLRow">
+				<td class="left">&nbsp;</td>
+				<td class="middle">&nbsp;</td>
+				<td class="middle" colspan="5">See ISO 26048-1 NTFT and FTRT tables (available at <a href="https://standards.iso.org/iso/ts/26048/-1/ed-1/en/">https://standards.iso.org/iso/ts/26048/-1/ed-1/en/</a>)</td>
+			</tr>
+        	<tr class="PRLRow" style="background:darkgray;"> 
+				<td class="sum-left">ISO 26048-1, &sect;6.5.4.6</td>
+				<td class="sum-middle" colspan="3">Monitor field device wind power</td>
+				<td class="sum-middle">O</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td> 
+			</tr>
+			<tr class="PRLRow">
+				<td class="left">&nbsp;</td>
+				<td class="middle">&nbsp;</td>
+				<td class="middle" colspan="5">See ISO 26048-1 NTFT and FTRT tables (available at <a href="https://standards.iso.org/iso/ts/26048/-1/ed-1/en/">https://standards.iso.org/iso/ts/26048/-1/ed-1/en/</a>)</td>
+			</tr>
+        	<tr class="PRLRow" style="background:darkgray;"> 
+				<td class="sum-left">ISO 26048-1, &sect;6.5.5.1</td>
+				<td class="sum-middle" colspan="3">Manage field device auxiliary bi-directional ports</td>
+				<td class="sum-middle">O</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td> 
+			</tr>
+			<tr class="PRLRow">
+				<td class="left">&nbsp;</td>
+				<td class="middle">&nbsp;</td>
+				<td class="middle" colspan="5">See ISO 26048-1 NTFT and FTRT tables (available at <a href="https://standards.iso.org/iso/ts/26048/-1/ed-1/en/">https://standards.iso.org/iso/ts/26048/-1/ed-1/en/</a>)</td>
+			</tr>
+        	<tr class="PRLRow" style="background:darkgray;"> 
+				<td class="sum-left">ISO 26048-1, &sect;6.5.5.2</td>
+				<td class="sum-middle" colspan="3">Monitor field device auxiliary inputs</td>
+				<td class="sum-middle">O</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td> 
+			</tr>
+			<tr class="PRLRow">
+				<td class="left">&nbsp;</td>
+				<td class="middle">&nbsp;</td>
+				<td class="middle" colspan="5">See ISO 26048-1 NTFT and FTRT tables (available at <a href="https://standards.iso.org/iso/ts/26048/-1/ed-1/en/">https://standards.iso.org/iso/ts/26048/-1/ed-1/en/</a>)</td>
+			</tr>
+        	<tr class="PRLRow" style="background:darkgray;"> 
+				<td class="sum-left">ISO 26048-1, &sect;6.5.5.3</td>
+				<td class="sum-middle" colspan="3">Manage field device auxiliary outputs</td>
+				<td class="sum-middle">O</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td> 
+			</tr>
+			<tr class="PRLRow">
+				<td class="left">&nbsp;</td>
+				<td class="middle">&nbsp;</td>
+				<td class="middle" colspan="5">See ISO 26048-1 NTFT and FTRT tables (available at <a href="https://standards.iso.org/iso/ts/26048/-1/ed-1/en/">https://standards.iso.org/iso/ts/26048/-1/ed-1/en/</a>)</td>
+			</tr>
+        	<tr class="PRLRow" style="background:darkgray;"> 
+				<td class="sum-left">ISO 26048-1, &sect;6.6</td>
+				<td class="sum-middle" colspan="3">Receive notification of triggers firing</td>
+				<td class="sum-middle">O.2 (1..*)</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td> 
+			</tr>
+			<tr class="PRLRow">
+				<td class="left">&nbsp;</td>
+				<td class="middle">&nbsp;</td>
+				<td class="middle" colspan="5">See ISO 26048-1 NTFT and FTRT tables (available at <a href="https://standards.iso.org/iso/ts/26048/-1/ed-1/en/">https://standards.iso.org/iso/ts/26048/-1/ed-1/en/</a>)</td>
+			</tr>
+        	<tr class="PRLRow" style="background:darkgray;"> 
+				<td class="sum-left">ISO 26048-1, &sect;6.7</td>
+				<td class="sum-middle" colspan="3">Manage device-specific notifications</td>
+				<td class="sum-middle">deviceNotifications:M</td>
+				<td class="sum-middle">		Yes
+			/ NA
+</td>
+				<td class="sum-right"></td> 
+			</tr>
+			<tr class="PRLRow">
+				<td class="left">&nbsp;</td>
+				<td class="middle">&nbsp;</td>
+				<td class="middle" colspan="5">See ISO 26048-1 NTFT and FTRT tables (available at <a href="https://standards.iso.org/iso/ts/26048/-1/ed-1/en/">https://standards.iso.org/iso/ts/26048/-1/ed-1/en/</a>)</td>
+			</tr>
+        	<tr class="PRLRow" style="background:darkgray;"> 
+				<td class="sum-left">ISO 26048-1, &sect;6.8</td>
+				<td class="sum-middle" colspan="3">Log system events</td>
+				<td class="sum-middle">M</td>
+				<td class="sum-middle">		Yes
+</td>
+				<td class="sum-right"></td> 
+			</tr>
+			<tr class="PRLRow">
+				<td class="left">&nbsp;</td>
+				<td class="middle">&nbsp;</td>
+				<td class="middle" colspan="5">See ISO 26048-1 NTFT and FTRT tables (available at <a href="https://standards.iso.org/iso/ts/26048/-1/ed-1/en/">https://standards.iso.org/iso/ts/26048/-1/ed-1/en/</a>)</td>
+			</tr>
+        	<tr class="PRLRow" style="background:darkgray;"> 
+				<td class="sum-left">ISO 26048-1, &sect;6.9</td>
+				<td class="sum-middle" colspan="3">Log user-defined data snapshots</td>
+				<td class="sum-middle">O.2 (1..*)</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td> 
+			</tr>
+			<tr class="PRLRow">
+				<td class="left">&nbsp;</td>
+				<td class="middle">&nbsp;</td>
+				<td class="middle" colspan="5">See ISO 26048-1 NTFT and FTRT tables (available at <a href="https://standards.iso.org/iso/ts/26048/-1/ed-1/en/">https://standards.iso.org/iso/ts/26048/-1/ed-1/en/</a>)</td>
+			</tr>
+        	<tr class="PRLRow" style="background:darkgray;"> 
+				<td class="sum-left">ISO 26048-1, &sect;6.11</td>
+				<td class="sum-middle" colspan="3">Issue trigger-based commands</td>
+				<td class="sum-middle">O</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td> 
+			</tr>
+			<tr class="PRLRow">
+				<td class="left">&nbsp;</td>
+				<td class="middle">&nbsp;</td>
+				<td class="middle" colspan="5">See ISO 26048-1 NTFT and FTRT tables (available at <a href="https://standards.iso.org/iso/ts/26048/-1/ed-1/en/">https://standards.iso.org/iso/ts/26048/-1/ed-1/en/</a>)</td>
+			</tr>
+        	<tr class="PRLRow" style="background:lightgray;">
+				<td class="sum-left">2.4.4</td>
+				<td class="sum-middle" colspan="3">Responsive Device</td>
+				<td class="sum-middle">M</td>
+				<td class="sum-middle">		Yes
+</td>
+				<td class="sum-right"></td>
+			</tr>
+			
+			
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.6.29	
+			  		</td>
+			  					<td class="middle">Maximum Response Time for Requests</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.6.30	
+			  		  		</td>
+			  		  					<td class="middle">Maximum Transmission Start Time</td>
+			  		  					<td class="middle">notifications::M</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+        	<tr class="PRLRow" style="background:darkgray;">
+				<td class="sum-left">2.5</td>
+				<td class="sum-middle" colspan="3">Features</td>
+				<td class="sum-middle">M</td>
+				<td class="sum-middle">		Yes
+</td>
+				<td class="sum-right"></td>
+			</tr>
+        	<tr class="PRLRow" style="background:darkgray;">
+				<td class="sum-left">2.5.1</td>
+				<td class="sum-middle" colspan="3">ESS Manager Features</td>
+				<td class="sum-middle">M</td>
+				<td class="sum-middle">		Yes
+</td>
+				<td class="sum-right"></td>
+			</tr>
+        	<tr class="PRLRow" style="background:lightgray;">
+				<td class="sum-left">2.5.1.4</td>
+				<td class="sum-middle" colspan="3">Monitor Mobile Station Data</td>
+				<td class="sum-middle">Mobile:M</td>
+				<td class="sum-middle">		Yes
+			/ NA
+</td>
+				<td class="sum-right"></td>
+			</tr>
+			
+			
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.1.2	
+			  		</td>
+			  					<td class="middle">Retrieve Mobile ESS Movement</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+        	<tr class="PRLRow" style="background:lightgray;">
+				<td class="sum-left">2.5.1.5</td>
+				<td class="sum-middle" colspan="3">Determine ESS Type</td>
+				<td class="sum-middle">M</td>
+				<td class="sum-middle">		Yes
+</td>
+				<td class="sum-right"></td>
+			</tr>
+			
+			
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.1.1	
+			  		</td>
+			  					<td class="middle">Retrieve ESS Type of Station</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+        	<tr class="PRLRow" style="background:darkgray;">
+				<td class="sum-left">2.5.2</td>
+				<td class="sum-middle" colspan="3">Sensor Manager Features</td>
+				<td class="sum-middle">O.3 (1..*)</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td>
+			</tr>
+        	<tr class="PRLRow" style="background:darkgray;">
+				<td class="sum-left">2.5.2.1</td>
+				<td class="sum-middle" colspan="3">Monitor Ambient Weather Conditions</td>
+				<td class="sum-middle">O.4 (1..*)</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td>
+			</tr>
+        	<tr class="PRLRow" style="background:lightgray;">
+				<td class="sum-left">2.5.2.1.1</td>
+				<td class="sum-middle" colspan="3">Monitor Atmospheric Pressure</td>
+				<td class="sum-middle">O.5 (1..*)</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td>
+			</tr>
+			
+			
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.1.1	
+			  		</td>
+			  					<td class="middle">Determine Number of Atmospheric Pressure Sensors</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.1.5	
+			  		</td>
+			  					<td class="middle">Retrieve Atmospheric Pressure</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.6.1	
+			  		</td>
+			  					<td class="middle">Required Number of Atmospheric Pressure Sensors</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"><p>The ESS shall support at least ____ (1..255:Default =1) atmospheric pressure sensors.</p></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.1.2	(PressLoc)
+			  		</td>
+			  					<td class="middle">Retrieve Atmospheric Pressure Sensor Location</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.1.3	
+			  		</td>
+			  					<td class="middle">Retrieve Atmospheric Pressure Sensor Identity</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.5.2.1.4	
+			  		  		</td>
+			  		  					<td class="middle">Configure Atmospheric Pressure Sensor Location</td>
+			  		  					<td class="middle">PressLoc:O</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ No
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+        	<tr class="PRLRow" style="background:lightgray;">
+				<td class="sum-left">2.5.2.1.2</td>
+				<td class="sum-middle" colspan="3">Monitor Winds</td>
+				<td class="sum-middle">O.5 (1..*)</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td>
+			</tr>
+			
+			
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.2.1	
+			  		</td>
+			  					<td class="middle">Determine Number of Wind Sensors</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.2.5	
+			  		</td>
+			  					<td class="middle">Retrieve Wind Data</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.6.2	
+			  		</td>
+			  					<td class="middle">Required Number of Wind Sensors</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"><p>The ESS shall support at least ____ (1..255:Default=1) wind sensors.</p></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.2.2	(windLoc)
+			  		</td>
+			  					<td class="middle">Retrieve Wind Sensor Location</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.2.3	
+			  		</td>
+			  					<td class="middle">Retrieve Wind Sensor Identity</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.5.2.2.4	
+			  		  		</td>
+			  		  					<td class="middle">Configure Wind Sensor Location</td>
+			  		  					<td class="middle">windLoc:O</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ No
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+        	<tr class="PRLRow" style="background:lightgray;">
+				<td class="sum-left">2.5.2.1.3</td>
+				<td class="sum-middle" colspan="3">Monitor Air Temperature</td>
+				<td class="sum-middle">O.5 (1..*)</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td>
+			</tr>
+			
+			
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.3.1	
+			  		</td>
+			  					<td class="middle">Determine Number of Temperature Sensors</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.3.5	
+			  		</td>
+			  					<td class="middle">Retrieve Air Temperature</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.3.6	
+			  		</td>
+			  					<td class="middle">Retrieve Daily Minimum and Maximum Temperature</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.6.3	
+			  		</td>
+			  					<td class="middle">Required Number of Temperature Sensors</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"><p>The ESS shall support at least ____ (1..255:Default=1) temperature sensors.</p></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.3.2	(TempLoc)
+			  		</td>
+			  					<td class="middle">Retrieve Temperature Sensor Location</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.3.3	
+			  		</td>
+			  					<td class="middle">Retrieve Temperature Sensor Identity</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.5.2.3.4	
+			  		  		</td>
+			  		  					<td class="middle">Configure Temperature Sensor Location</td>
+			  		  					<td class="middle">TempLoc:O</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ No
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+        	<tr class="PRLRow" style="background:lightgray;">
+				<td class="sum-left">2.5.2.1.4</td>
+				<td class="sum-middle" colspan="3">Monitor Relative Humidity</td>
+				<td class="sum-middle">O.5 (1..*)</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td>
+			</tr>
+			
+			
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.4.1	
+			  		</td>
+			  					<td class="middle">Determine Number of Humidity Sensors</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.4.5	
+			  		</td>
+			  					<td class="middle">Configure Humidity Sensor Temperature</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.4.6	
+			  		</td>
+			  					<td class="middle">Retrieve Relative Humidity</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.6.4	
+			  		</td>
+			  					<td class="middle">Required Number of Humidity Sensors</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"><p>The ESS shall support at least ____ (1..255:Default=1) humidity sensors.</p></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.4.2	(HumidityLoc)
+			  		</td>
+			  					<td class="middle">Retrieve Humidity Sensor Location</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.4.3	
+			  		</td>
+			  					<td class="middle">Retrieve Humidity Sensor Identity</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.5.2.4.4	
+			  		  		</td>
+			  		  					<td class="middle">Configure Humidity Sensor Location</td>
+			  		  					<td class="middle">HumidityLoc:O</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ No
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+        	<tr class="PRLRow" style="background:lightgray;">
+				<td class="sum-left">2.5.2.1.5</td>
+				<td class="sum-middle" colspan="3">Monitor Precipitation</td>
+				<td class="sum-middle">O.5 (1..*)</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td>
+			</tr>
+			
+			
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.5.1	
+			  		</td>
+			  					<td class="middle">Determine Number of Precipitation Sensors</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.5.6	
+			  		</td>
+			  					<td class="middle">Retrieve Precipitation Presence</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.6.5	
+			  		</td>
+			  					<td class="middle">Required Number of Precipitation Sensors</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"><p>The ESS shall support at least ____ (1..255:Default=1) precipitation sensors.</p></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.5.2	(PrecipLoc)
+			  		</td>
+			  					<td class="middle">Retrieve Precipitation Sensor Location</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.5.3	
+			  		</td>
+			  					<td class="middle">Retrieve Precipitation Sensor Identity</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.5.7	(precipRates)
+			  		</td>
+			  					<td class="middle">Retrieve Precipitation Rates</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.5.8	
+			  		</td>
+			  					<td class="middle">Retrieve Precipitation Totals</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.5.9	(PrecipPeriod)
+			  		</td>
+			  					<td class="middle">Retrieve Precipitation Totals - User Specified</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.5.10	
+			  		</td>
+			  					<td class="middle">Retrieve Precipitation Type</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.12.2	
+			  		</td>
+			  					<td class="middle">Retrieve Precipitation Situation</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.5.2.5.4	
+			  		  		</td>
+			  		  					<td class="middle">Configure Precipitation Sensor Location</td>
+			  		  					<td class="middle">PrecipLoc:O</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ No
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.5.2.5.5	
+			  		  		</td>
+			  		  					<td class="middle">Configure Precipitation Total User-Specified Period</td>
+			  		  					<td class="middle">PrecipPeriod:M</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">ISO 26048-1, &sect;8.2.1</td>
+			  		  					<td class="middle">UTC clock</td>
+			  		  					<td class="middle">precipRates:M</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+        	<tr class="PRLRow" style="background:lightgray;">
+				<td class="sum-left">2.5.2.1.6</td>
+				<td class="sum-middle" colspan="3">Monitor Solar Radiation</td>
+				<td class="sum-middle">O.5 (1..*)</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td>
+			</tr>
+			
+			
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.6.1	
+			  		</td>
+			  					<td class="middle">Determine Number of Solar Radiation Sensors</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.6.5	
+			  		</td>
+			  					<td class="middle">Retrieve Solar Radiation</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.6.6	
+			  		</td>
+			  					<td class="middle">Required Number of Solar Radiation Sensors</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"><p>The ESS shall support at least ____ (1..255:Default=1) solar radiation sensors.</p></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.6.2	(radLoc)
+			  		</td>
+			  					<td class="middle">Retrieve Solar Radiation Sensor Location</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.6.3	
+			  		</td>
+			  					<td class="middle">Retrieve Solar Radiation Sensor Identity</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.5.2.6.4	
+			  		  		</td>
+			  		  					<td class="middle">Configure Solar Radiation Sensor Location</td>
+			  		  					<td class="middle">radLoc:O</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ No
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+        	<tr class="PRLRow" style="background:lightgray;">
+				<td class="sum-left">2.5.2.1.7</td>
+				<td class="sum-middle" colspan="3">Monitor Visibility</td>
+				<td class="sum-middle">O.5 (1..*)</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td>
+			</tr>
+			
+			
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.7.1	
+			  		</td>
+			  					<td class="middle">Determine Number of Visibility Sensors</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.7.5	
+			  		</td>
+			  					<td class="middle">Retrieve Visibility</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.6.7	
+			  		</td>
+			  					<td class="middle">Required Number of Visibility Sensors</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"><p>The ESS shall support at least ____ (1..255:Default=1) visibility sensors.</p></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.7.2	(VisLoc)
+			  		</td>
+			  					<td class="middle">Retrieve Visibility Sensor Location</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.7.3	
+			  		</td>
+			  					<td class="middle">Retrieve Visibility Sensor Identity</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.12.3	
+			  		</td>
+			  					<td class="middle">Retrieve Visibility Situation</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.12.4	
+			  		</td>
+			  					<td class="middle">Retrieve Cloud Situation</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.5.2.7.4	
+			  		  		</td>
+			  		  					<td class="middle">Configure Visibility Sensor Location</td>
+			  		  					<td class="middle">VisLoc:O</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ No
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+        	<tr class="PRLRow" style="background:lightgray;">
+				<td class="sum-left">2.5.2.1.8</td>
+				<td class="sum-middle" colspan="3">View Environmental Image</td>
+				<td class="sum-middle">O</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td>
+			</tr>
+			
+			
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.13.1	
+			  		</td>
+			  					<td class="middle">Determine Number of Snapshot Cameras</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.13.2	
+			  		</td>
+			  					<td class="middle">Retrieve Snapshot Camera Identity</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.13.3	
+			  		</td>
+			  					<td class="middle">Determine Supported Image Storage Formats</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.13.4	
+			  		</td>
+			  					<td class="middle">Configure Snapshot Camera</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.13.5	
+			  		</td>
+			  					<td class="middle">Retrieve Snapshot Camera Configuration</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.13.6	
+			  		</td>
+			  					<td class="middle">Capture Snapshot Image</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.13.7	
+			  		</td>
+			  					<td class="middle">Retrieve Snapshot</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.13.8	
+			  		</td>
+			  					<td class="middle">Delete Snapshot</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.6.23	
+			  		</td>
+			  					<td class="middle">Required Number of Snapshot Cameras</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"><p>The ESS shall support at least ____ (1..255:Default=1) snapshot cameras.</p></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.6.24	
+			  		</td>
+			  					<td class="middle">Support Camera Number in Filename</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.6.25	
+			  		</td>
+			  					<td class="middle">Support Sequence Number in Filename</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.6.26	
+			  		</td>
+			  					<td class="middle">Support Date in Filename</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.6.27	
+			  		</td>
+			  					<td class="middle">Support Time in Filename</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.6.28	
+			  		</td>
+			  					<td class="middle">Support Long Filenames</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+        	<tr class="PRLRow" style="background:lightgray;">
+				<td class="sum-left">2.5.2.1.9</td>
+				<td class="sum-middle" colspan="3">Monitor Dewpoint Temperature</td>
+				<td class="sum-middle">O.5 (1..*)</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td>
+			</tr>
+			
+			
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.4.5	
+			  		</td>
+			  					<td class="middle">Configure Humidity Sensor Temperature</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.4.6	
+			  		</td>
+			  					<td class="middle">Retrieve Relative Humidity</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+        	<tr class="PRLRow" style="background:darkgray;">
+				<td class="sum-left">2.5.2.2</td>
+				<td class="sum-middle" colspan="3">Monitor Pavement</td>
+				<td class="sum-middle">O.4 (1..*)</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td>
+			</tr>
+        	<tr class="PRLRow" style="background:lightgray;">
+				<td class="sum-left">2.5.2.2.1</td>
+				<td class="sum-middle" colspan="3">Monitor Pavement Surface Condition</td>
+				<td class="sum-middle">M</td>
+				<td class="sum-middle">		Yes
+</td>
+				<td class="sum-right"></td>
+			</tr>
+			
+			
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.8.1	
+			  		</td>
+			  					<td class="middle">Determine Number of Pavement Sensors</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.8.10	
+			  		</td>
+			  					<td class="middle">Retrieve Pavement Surface Temperature</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.6.8	
+			  		</td>
+			  					<td class="middle">Required Number of Pavement Sensors</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"><p>The ESS shall support at least ____ (1..255:Default=1) pavement sensors.</p></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.8.2	(PaveLoc)
+			  		</td>
+			  					<td class="middle">Retrieve Pavement Sensor Location</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.8.3	
+			  		</td>
+			  					<td class="middle">Retrieve Pavement Sensor Identity</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.8.5	(PaveSensor)
+			  		</td>
+			  					<td class="middle">Retrieve Pavement Sensor Metadata</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.8.11	
+			  		</td>
+			  					<td class="middle">Retrieve Pavement Surface Condition</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.8.12	
+			  		</td>
+			  					<td class="middle">Retrieve Forecasted Pavement Surface Condition</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.8.13	
+			  		</td>
+			  					<td class="middle">Retrieve Roadway Friction Coefficient</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.8.15	
+			  		</td>
+			  					<td class="middle">Retrieve Adjacent Snow Depth</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.8.16	
+			  		</td>
+			  					<td class="middle">Retrieve Roadway Snow Depth</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.8.17	
+			  		</td>
+			  					<td class="middle">Retrieve Roadway Ice Thickness</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.5.2.8.6	
+			  		  		</td>
+			  		  					<td class="middle">Configure Pavement Sensor Metadata</td>
+			  		  					<td class="middle">PaveSensor:O</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ No
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.5.2.8.4	
+			  		  		</td>
+			  		  					<td class="middle">Configure Pavement Sensor Location</td>
+			  		  					<td class="middle">PaveLoc:O</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ No
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+        	<tr class="PRLRow" style="background:lightgray;">
+				<td class="sum-left">2.5.2.2.2</td>
+				<td class="sum-middle" colspan="3">Monitor Icing Conditions</td>
+				<td class="sum-middle">O</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td>
+			</tr>
+			
+			
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.8.1	
+			  		</td>
+			  					<td class="middle">Determine Number of Pavement Sensors</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.8.2	(PaveLoc)
+			  		</td>
+			  					<td class="middle">Retrieve Pavement Sensor Location</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.8.3	
+			  		</td>
+			  					<td class="middle">Retrieve Pavement Sensor Identity</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.8.5	(PaveSensor)
+			  		</td>
+			  					<td class="middle">Retrieve Pavement Sensor Metadata</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.8.14	
+			  		</td>
+			  					<td class="middle">Retrieve Ice Percentage</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.6.9	(ActiveIceDetect)
+			  		  		</td>
+			  		  					<td class="middle">Active Pavement Treatment Sensors</td>
+			  		  					<td class="middle">O.7</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ No
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.6.10	(PassiveIceDetect)
+			  		  		</td>
+			  		  					<td class="middle">Passive Pavement Treatment Sensors</td>
+			  		  					<td class="middle">O.7</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ No
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+			  		
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.5.2.8.6	
+			  		  		</td>
+			  		  					<td class="middle">Configure Pavement Sensor Metadata</td>
+			  		  					<td class="middle">PaveSensor:O</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ No
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.5.2.8.4	
+			  		  		</td>
+			  		  					<td class="middle">Configure Pavement Sensor Location</td>
+			  		  					<td class="middle">PaveLoc:O</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ No
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.5.2.8.7	
+			  		  		</td>
+			  		  					<td class="middle">Configure Passive Ice Detection Logic</td>
+			  		  					<td class="middle">PassiveIceDetect:M</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.5.2.8.9	
+			  		  		</td>
+			  		  					<td class="middle">Retrieve Conditions for Freezing Algorithms - Passive</td>
+			  		  					<td class="middle">PassiveIceDetect:M</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.5.2.8.8	
+			  		  		</td>
+			  		  					<td class="middle">Retrieve Conditions for Freezing Algorithms - Active</td>
+			  		  					<td class="middle">ActiveIceDetect:M</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+        	<tr class="PRLRow" style="background:lightgray;">
+				<td class="sum-left">2.5.2.2.3</td>
+				<td class="sum-middle" colspan="3">View Pavement Image</td>
+				<td class="sum-middle">O</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td>
+			</tr>
+			
+			
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.13.1	
+			  		</td>
+			  					<td class="middle">Determine Number of Snapshot Cameras</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.13.2	
+			  		</td>
+			  					<td class="middle">Retrieve Snapshot Camera Identity</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.13.3	
+			  		</td>
+			  					<td class="middle">Determine Supported Image Storage Formats</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.13.4	
+			  		</td>
+			  					<td class="middle">Configure Snapshot Camera</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.13.5	
+			  		</td>
+			  					<td class="middle">Retrieve Snapshot Camera Configuration</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.13.6	
+			  		</td>
+			  					<td class="middle">Capture Snapshot Image</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.13.7	
+			  		</td>
+			  					<td class="middle">Retrieve Snapshot</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.13.8	
+			  		</td>
+			  					<td class="middle">Delete Snapshot</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.6.23	
+			  		</td>
+			  					<td class="middle">Required Number of Snapshot Cameras</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"><p>The ESS shall support at least ____ (1..255:Default=1) snapshot cameras.</p></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.6.24	
+			  		</td>
+			  					<td class="middle">Support Camera Number in Filename</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.6.25	
+			  		</td>
+			  					<td class="middle">Support Sequence Number in Filename</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.6.26	
+			  		</td>
+			  					<td class="middle">Support Date in Filename</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.6.27	
+			  		</td>
+			  					<td class="middle">Support Time in Filename</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.6.28	
+			  		</td>
+			  					<td class="middle">Support Long Filenames</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+        	<tr class="PRLRow" style="background:lightgray;">
+				<td class="sum-left">2.5.2.3</td>
+				<td class="sum-middle" colspan="3">Monitor Subsurface Conditions</td>
+				<td class="sum-middle">O.4 (1..*)</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td>
+			</tr>
+			
+			
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.9.1	
+			  		</td>
+			  					<td class="middle">Determine Number of Subsurface Sensors</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.9.7	
+			  		</td>
+			  					<td class="middle">Retrieve Subsurface Temperature</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.6.11	
+			  		</td>
+			  					<td class="middle">Required Number of Subsurface Sensors</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"><p>The ESS shall support at least ____ (1..255:Default=1) subsurface sensors.</p></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.9.2	(SubSurfLoc)
+			  		</td>
+			  					<td class="middle">Retrieve Subsurface Sensor Location</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.9.3	
+			  		</td>
+			  					<td class="middle">Retrieve Subsurface Sensor Identity</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.9.5	(SubSurface)
+			  		</td>
+			  					<td class="middle">Retrieve Subsurface Sensor Metadata</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.9.8	
+			  		</td>
+			  					<td class="middle">Retrieve Subsurface Moisture</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.5.2.9.6	
+			  		  		</td>
+			  		  					<td class="middle">Configure Subsurface Sensor Metadata</td>
+			  		  					<td class="middle">SubSurface:O</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ No
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.5.2.9.4	
+			  		  		</td>
+			  		  					<td class="middle">Configure Subsurface Sensor Location</td>
+			  		  					<td class="middle">SubSurfLoc:O</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ No
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+        	<tr class="PRLRow" style="background:lightgray;">
+				<td class="sum-left">2.5.2.4</td>
+				<td class="sum-middle" colspan="3">Monitor Human Readings</td>
+				<td class="sum-middle">O.4 (1..*)</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td>
+			</tr>
+			
+			
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.12.1	
+			  		</td>
+			  					<td class="middle">Retrieve Wind Situation</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.12.2	
+			  		</td>
+			  					<td class="middle">Retrieve Precipitation Situation</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.12.3	
+			  		</td>
+			  					<td class="middle">Retrieve Visibility Situation</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.12.4	
+			  		</td>
+			  					<td class="middle">Retrieve Cloud Situation</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.12.5	
+			  		</td>
+			  					<td class="middle">Retrieve Ground State</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.12.6	
+			  		</td>
+			  					<td class="middle">Retrieve Pavement State</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+        	<tr class="PRLRow" style="background:lightgray;">
+				<td class="sum-left">2.5.2.5</td>
+				<td class="sum-middle" colspan="3">Monitor Water Level</td>
+				<td class="sum-middle">O.4 (1..*)</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td>
+			</tr>
+			
+			
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.11.1	
+			  		</td>
+			  					<td class="middle">Determine Number of Water Level Sensors</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.11.7	
+			  		</td>
+			  					<td class="middle">Retrieve Water Level</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.6.22	
+			  		</td>
+			  					<td class="middle">Required Number of Water Level Sensors</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"><p>The ESS shall support at least ____ (1..255:Default=1) water level sensors.</p></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.11.2	(WaterLoc)
+			  		</td>
+			  					<td class="middle">Retrieve Water Level Sensor Location</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.11.3	
+			  		</td>
+			  					<td class="middle">Retrieve Water Level Sensor Identity</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.11.4	(WaterWarn)
+			  		</td>
+			  					<td class="middle">Retrieve Water Level Sensor Warning Level</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.5.2.11.5	
+			  		  		</td>
+			  		  					<td class="middle">Configure Water Level Sensor Location</td>
+			  		  					<td class="middle">WaterLoc:O</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ No
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.5.2.11.6	
+			  		  		</td>
+			  		  					<td class="middle">Configure Water Level Sensor Warning Level</td>
+			  		  					<td class="middle">WaterWarn:O</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ No
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+        	<tr class="PRLRow" style="background:lightgray;">
+				<td class="sum-left">2.5.2.6</td>
+				<td class="sum-middle" colspan="3">Monitor Air Quality and Biohazards</td>
+				<td class="sum-middle">O.4 (1..*)</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td>
+			</tr>
+			
+			
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.10.1	
+			  		</td>
+			  					<td class="middle">Determine Number of Air Quality Sensors</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.10.2	(AQLoc)
+			  		</td>
+			  					<td class="middle">Retrieve Air Quality Sensor Location</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.2.10.3	
+			  		</td>
+			  					<td class="middle">Retrieve Air Quality Sensor Identity</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.5.2.10.5	(CO)
+			  		  		</td>
+			  		  					<td class="middle">Retrieve Carbon Monoxide Reading</td>
+			  		  					<td class="middle">O.8</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ No
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.5.2.10.6	(NO2)
+			  		  		</td>
+			  		  					<td class="middle">Retrieve Nitrogen Dioxide Reading</td>
+			  		  					<td class="middle">O.8</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ No
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.5.2.10.7	(SO2)
+			  		  		</td>
+			  		  					<td class="middle">Retrieve Sulfur Dioxide Reading</td>
+			  		  					<td class="middle">O.8</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ No
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.5.2.10.8	(PM10)
+			  		  		</td>
+			  		  					<td class="middle">Retrieve Small Particulate Matter Reading</td>
+			  		  					<td class="middle">O.8</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ No
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.5.2.10.9	(PM2.5)
+			  		  		</td>
+			  		  					<td class="middle">Retrieve Particulate Matter 2.5 Reading</td>
+			  		  					<td class="middle">O.8</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ No
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.5.2.10.10	(PM1.0)
+			  		  		</td>
+			  		  					<td class="middle">Retrieve Particulate Matter 1.0 Reading</td>
+			  		  					<td class="middle">O.8</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ No
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.5.2.10.11	(CO2)
+			  		  		</td>
+			  		  					<td class="middle">Retrieve Carbon Dioxide Reading</td>
+			  		  					<td class="middle">O.8</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ No
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.5.2.10.12	(NO)
+			  		  		</td>
+			  		  					<td class="middle">Retrieve Nitric Oxide Reading</td>
+			  		  					<td class="middle">O.8</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ No
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.5.2.10.13	(O3)
+			  		  		</td>
+			  		  					<td class="middle">Retrieve Ozone Reading</td>
+			  		  					<td class="middle">O.8</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ No
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+			  		
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.5.2.10.4	
+			  		  		</td>
+			  		  					<td class="middle">Configure Air Quality Sensor Location</td>
+			  		  					<td class="middle">AQLoc:O</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ No
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.6.13	
+			  		  		</td>
+			  		  					<td class="middle">Required Number of Carbon Monoxide Sensors</td>
+			  		  					<td class="middle">CO:M</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"><p>The ESS shall support at least ____ (Default=1) carbon monoxide sensors.</p></td>
+			  		  				</tr>
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.6.14	
+			  		  		</td>
+			  		  					<td class="middle">Required Number of Carbon Dioxide Sensors</td>
+			  		  					<td class="middle">CO2:M</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"><p>The ESS shall support at least ____ (Default=1) carbon dioxide sensors.</p></td>
+			  		  				</tr>
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.6.15	
+			  		  		</td>
+			  		  					<td class="middle">Required Number of Nitric Oxide Sensors</td>
+			  		  					<td class="middle">NO:M</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"><p>The ESS shall support at least ____ (Default=1) nitric oxide sensors.</p></td>
+			  		  				</tr>
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.6.16	
+			  		  		</td>
+			  		  					<td class="middle">Required Number of Nitrogen Dioxide Sensors</td>
+			  		  					<td class="middle">NO2:M</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"><p>The ESS shall support at least ____ (Default=1) nitrogen dioxide sensors.</p></td>
+			  		  				</tr>
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.6.17	
+			  		  		</td>
+			  		  					<td class="middle">Required Number of Sulfur Dioxide Sensors</td>
+			  		  					<td class="middle">SO2:M</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"><p>The ESS shall support at least ____ (Default=1) sulfur dioxide sensors.</p></td>
+			  		  				</tr>
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.6.18	
+			  		  		</td>
+			  		  					<td class="middle">Required Number of Ozone Sensors</td>
+			  		  					<td class="middle">O3:M</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"><p>The ESS shall support at least ____ (Default=1) ozone sensors.</p></td>
+			  		  				</tr>
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.6.19	
+			  		  		</td>
+			  		  					<td class="middle">Required Number of Small (10) Particulate Matter Sensors</td>
+			  		  					<td class="middle">PM10:M</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"><p>The ESS shall support at least ____ (Default=1) small particulate matter sensors.</p></td>
+			  		  				</tr>
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.6.20	
+			  		  		</td>
+			  		  					<td class="middle">Required Number of Small (2.5) Particulate Matter Sensors</td>
+			  		  					<td class="middle">PM2.5:M</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"><p>The ESS shall support at least ____ (Default=1) particulate matter (2.5) sensors.</p></td>
+			  		  				</tr>
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.6.21	
+			  		  		</td>
+			  		  					<td class="middle">Required Number of Small (1.0) Particulate Matter Sensors</td>
+			  		  					<td class="middle">PM1.0:M</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+        	<tr class="PRLRow" style="background:lightgray;">
+				<td class="sum-left">2.5.2.7</td>
+				<td class="sum-middle" colspan="3">Monitor Mobile Weather Profile</td>
+				<td class="sum-middle">O</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td>
+			</tr>
+			
+			
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">ISO 26048-1, &sect;8.1</td>
+			  					<td class="middle">Action feature</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">ISO 26048-1, &sect;8.2.1</td>
+			  					<td class="middle">UTC clock</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">ISO 26048-1, &sect;8.4</td>
+			  					<td class="middle">Conditional trigger feature</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">ISO 26048-1, &sect;8.7</td>
+			  					<td class="middle">Dynamic object feature</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">ISO 26048-1, &sect;8.10</td>
+			  					<td class="middle">Logging feature</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.1.2	
+			  		</td>
+			  					<td class="middle">Retrieve Mobile ESS Movement</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+        	<tr class="PRLRow" style="background:darkgray;">
+				<td class="sum-left">2.5.3</td>
+				<td class="sum-middle" colspan="3">Pavement Treatment System Manager Features</td>
+				<td class="sum-middle">O.3 (1..*)</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td>
+			</tr>
+        	<tr class="PRLRow" style="background:lightgray;">
+				<td class="sum-left">2.5.3.1</td>
+				<td class="sum-middle" colspan="3">Manage Stationary Spray System</td>
+				<td class="sum-middle">Mobile:X; O</td>
+				<td class="sum-middle">		Yes
+			/ NA
+</td>
+				<td class="sum-right"></td>
+			</tr>
+			
+			
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.3.1.4	
+			  		</td>
+			  					<td class="middle">Retrieve Stationary Pavement Treatment Configuration</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.3.1.5	
+			  		</td>
+			  					<td class="middle">Configure Stationary Pavement Treatment System</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.3.2.1	
+			  		</td>
+			  					<td class="middle">Retrieve Pavement Treatment Status</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.3.2.2	
+			  		</td>
+			  					<td class="middle">Retrieve PTS Operational Mode</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.3.4.1	
+			  		</td>
+			  					<td class="middle">Set PTS Operational Mode</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.3.4.2	
+			  		</td>
+			  					<td class="middle">Manually Activate PTS Sprayer</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.6.12	
+			  		</td>
+			  					<td class="middle">Required Number of Pavement Treatment Products</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"><p>The ESS shall support at least ____ pavement treatment products (1..255).</p></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.3.1.1	(PtsLoc)
+			  		</td>
+			  					<td class="middle">Retrieve Pavement Treatment System Location</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.3.1.2	
+			  		</td>
+			  					<td class="middle">Retrieve Pavement Treatment System Identity</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.5.3.1.3	
+			  		  		</td>
+			  		  					<td class="middle">Configure Pavement Treatment System Location</td>
+			  		  					<td class="middle">PtsLoc:O</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ No
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+        	<tr class="PRLRow" style="background:lightgray;">
+				<td class="sum-left">2.5.3.2</td>
+				<td class="sum-middle" colspan="3">Manage Mobile Spray System</td>
+				<td class="sum-middle">Mobile:O</td>
+				<td class="sum-middle">		Yes
+			/ No
+			/ NA
+</td>
+				<td class="sum-right"></td>
+			</tr>
+			
+			
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.3.2.1	
+			  		</td>
+			  					<td class="middle">Retrieve Pavement Treatment Status</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.3.1.1	(PtsLoc)
+			  		</td>
+			  					<td class="middle">Retrieve Pavement Treatment System Location</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.3.1.2	
+			  		</td>
+			  					<td class="middle">Retrieve Pavement Treatment System Identity</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.3.1.6	
+			  		</td>
+			  					<td class="middle">Configure Mobile Pavement Treatment System</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.3.1.7	
+			  		</td>
+			  					<td class="middle">Retrieve Mobile Pavement Treatment Configuration</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.3.2.2	
+			  		</td>
+			  					<td class="middle">Retrieve PTS Operational Mode</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.3.4.1	
+			  		</td>
+			  					<td class="middle">Set PTS Operational Mode</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.3.4.2	
+			  		</td>
+			  					<td class="middle">Manually Activate PTS Sprayer</td>
+			  					<td class="middle">O</td>
+			  					<td class="middle"> Yes
+			  							/ No
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+					
+			  		
+			  		  		
+			  		  		        <tr class="PRLRow">
+			  		  					<td class="left">&nbsp;</td>
+			  		  					<td class="middle">&nbsp;</td>
+			  		  					<td class="middle">&sect;3.5.3.1.3	
+			  		  		</td>
+			  		  					<td class="middle">Configure Pavement Treatment System Location</td>
+			  		  					<td class="middle">PtsLoc:O</td>
+			  		  					<td class="middle"> Yes
+			  		  							/ No
+			  		  							/ NA
+			  		  					</td>
+			  		  					<td class="right"></td>
+			  		  				</tr>
+        	<tr class="PRLRow" style="background:lightgray;">
+				<td class="sum-left">2.5.3.3</td>
+				<td class="sum-middle" colspan="3">Monitor Mobile Spray System Profile</td>
+				<td class="sum-middle">O</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td>
+			</tr>
+			
+			
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">ISO 26048-1, &sect;8.1</td>
+			  					<td class="middle">Action feature</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">ISO 26048-1, &sect;8.2.1</td>
+			  					<td class="middle">UTC clock</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">ISO 26048-1, &sect;8.4</td>
+			  					<td class="middle">Conditional trigger feature</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">ISO 26048-1, &sect;8.7</td>
+			  					<td class="middle">Dynamic object feature</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">ISO 26048-1, &sect;8.10</td>
+			  					<td class="middle">Logging feature</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.5.1.2	
+			  		</td>
+			  					<td class="middle">Retrieve Mobile ESS Movement</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+        	<tr class="PRLRow" style="background:darkgray;">
+				<td class="sum-left">2.6</td>
+				<td class="sum-middle" colspan="3">Security</td>
+				<td class="sum-middle">M</td>
+				<td class="sum-middle">		Yes
+</td>
+				<td class="sum-right"></td>
+			</tr>
+        	<tr class="PRLRow" style="background:lightgray;">
+				<td class="sum-left">2.6.2</td>
+				<td class="sum-middle" colspan="3">Conformant Security Environment</td>
+				<td class="sum-middle">O.6 (1..*)</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td>
+			</tr>
+			
+			
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.7.1	
+			  		</td>
+			  					<td class="middle">Conformant Security</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+        	<tr class="PRLRow" style="background:lightgray;">
+				<td class="sum-left">2.6.3</td>
+				<td class="sum-middle" colspan="3">Consistent Security Environment</td>
+				<td class="sum-middle">O.6 (1..*)</td>
+				<td class="sum-middle">		Yes
+			/ No
+</td>
+				<td class="sum-right"></td>
+			</tr>
+			
+			
+			  		
+			  		        <tr class="PRLRow">
+			  					<td class="left">&nbsp;</td>
+			  					<td class="middle">&nbsp;</td>
+			  					<td class="middle">&sect;3.7.2	
+			  		</td>
+			  					<td class="middle">Consistent Security</td>
+			  					<td class="middle">M</td>
+			  					<td class="middle"> Yes
+			  					</td>
+			  					<td class="right"></td>
+			  				</tr>
+      </tbody>
+    </table>
+	<p>&nbsp;</p>
+
+</body>

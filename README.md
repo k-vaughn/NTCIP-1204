@@ -12,7 +12,7 @@ Environmental Sensor Stations
 
 ### Status
 
-This represents the approved MIB for NTCIP 1204.
+This represents the MIB for NTCIP 1204 v05.
 
 ### Overview
 

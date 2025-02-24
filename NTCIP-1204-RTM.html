@@ -1,0 +1,3577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Requirements Traceability Matrix</title>
+  <style>
+    /* Customization of standard HTML styles */
+    p {
+      margin-top: 0em;
+      margin-bottom: 0em;
+    }
+    table {
+      border-spacing: 0em;
+    }
+    th {
+      text-align: left;
+      background-color: #ff0;
+      padding-left: 2px;
+      padding-right: 2px;
+    } 
+    td {
+      text-align: left;
+      padding-left: 2px;
+      padding-right: 2px;
+    }
+    #reqviewTable {
+      margin: 0em;
+      border: 3px solid #000;
+    }
+    .deleted {
+      color: #666;
+      text-decoration: line-through;
+    }
+    .newrow {
+      border-top: 2px solid #000;
+      border-bottom: 1px solid #000;
+      background-color: #ccc;
+    }
+    .req-col {
+      min-width: 5em;
+    }
+    .dia-col {
+      min-width: 5em;
+      border-left: 1px solid #000;
+    }
+    .mib-col {
+      min-width: 5em;
+      border-bottom: 1px solid #000;
+    }
+    .obj-col {
+      min-width: 5em;
+      border-bottom: 1px solid #000;      border-left: 1px solid #000;
+
+    }
+    .doc-obj-id {
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+    <table id="reqviewTable">
+      <thead>
+        <tr>
+          <th>Requirement</th>
+          <th>Object Reference</th>
+          <th>Object</th>
+          <th>Dialogue</th>
+		  <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.1.1
+: Retrieve ESS Type of Station
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.3.1
+			</td>
+							<td class="obj-col" colspan="2">essTypeofStation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.1.2
+: Retrieve Mobile ESS Movement
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		ISO26048-1-FieldDevice
+			</td>
+							<td class="obj-col" colspan="2">fdGnssLatitude</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		ISO26048-1-FieldDevice
+			</td>
+							<td class="obj-col" colspan="2">fdGnssLongitude</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		ISO26048-1-FieldDevice
+			</td>
+							<td class="obj-col" colspan="2">fdGnssElevation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		ISO26048-1-FieldDevice
+			</td>
+							<td class="obj-col" colspan="2">fdSpeed</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		ISO26048-1-FieldDevice
+			</td>
+							<td class="obj-col" colspan="2">fdBearing</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		ISO26048-1-FieldDevice
+			</td>
+							<td class="obj-col" colspan="2">fdOdometer</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.1.1
+: Determine Number of Atmospheric Pressure Sensors
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.5.5
+			</td>
+							<td class="obj-col" colspan="2">essNumPressureSensors</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.1.2
+: Retrieve Atmospheric Pressure Sensor Location
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.5.7.5
+			</td>
+							<td class="obj-col" colspan="2">essPressureSensorLocation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.5.7.8
+			</td>
+							<td class="obj-col" colspan="2">essPressureSensorXOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.5.7.9
+			</td>
+							<td class="obj-col" colspan="2">essPressureSensorYOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.5.7.10
+			</td>
+							<td class="obj-col" colspan="2">essPressureSensorZOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.1.3
+: Retrieve Atmospheric Pressure Sensor Identity
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.5.7.11
+			</td>
+							<td class="obj-col" colspan="2">essPressureSensorEntityID</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.1.4
+: Configure Atmospheric Pressure Sensor Location
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Set tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.5.7.5
+			</td>
+							<td class="obj-col" colspan="2">essPressureSensorLocation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.5.7.8
+			</td>
+							<td class="obj-col" colspan="2">essPressureSensorXOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.5.7.9
+			</td>
+							<td class="obj-col" colspan="2">essPressureSensorYOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.5.7.10
+			</td>
+							<td class="obj-col" colspan="2">essPressureSensorZOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.1.5
+: Retrieve Atmospheric Pressure
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.5.7.7
+			</td>
+							<td class="obj-col" colspan="2">essPressureSensorAtmosphericPressure</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.2.1
+: Determine Number of Wind Sensors
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.6.8
+			</td>
+							<td class="obj-col" colspan="2">windSensorTableNumSensors</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.2.2
+: Retrieve Wind Sensor Location
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.6.10.3
+			</td>
+							<td class="obj-col" colspan="2">windSensorLocation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.6.10.14
+			</td>
+							<td class="obj-col" colspan="2">windSensorXOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.6.10.15
+			</td>
+							<td class="obj-col" colspan="2">windSensorYOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.6.10.16
+			</td>
+							<td class="obj-col" colspan="2">windSensorZOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.2.3
+: Retrieve Wind Sensor Identity
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.6.10.17
+			</td>
+							<td class="obj-col" colspan="2">windSensorEntityID</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.2.4
+: Configure Wind Sensor Location
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Set tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.6.10.3
+			</td>
+							<td class="obj-col" colspan="2">windSensorLocation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.6.10.14
+			</td>
+							<td class="obj-col" colspan="2">windSensorXOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.6.10.15
+			</td>
+							<td class="obj-col" colspan="2">windSensorYOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.6.10.16
+			</td>
+							<td class="obj-col" colspan="2">windSensorZOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.2.5
+: Retrieve Wind Data
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.6.10.4
+			</td>
+							<td class="obj-col" colspan="2">windSensorAvgSpeed</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.6.10.5
+			</td>
+							<td class="obj-col" colspan="2">windSensorAvgDirection</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.6.10.6
+			</td>
+							<td class="obj-col" colspan="2">windSensorSpotSpeed</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.6.10.7
+			</td>
+							<td class="obj-col" colspan="2">windSensorSpotDirection</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.6.10.8
+			</td>
+							<td class="obj-col" colspan="2">windSensorGustSpeed</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.6.10.9
+			</td>
+							<td class="obj-col" colspan="2">windSensorGustDirection</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.6.10.10
+			</td>
+							<td class="obj-col" colspan="2">windSensorSituation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.3.1
+: Determine Number of Temperature Sensors
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.7.1
+			</td>
+							<td class="obj-col" colspan="2">essNumTemperatureSensors</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.3.2
+: Retrieve Temperature Sensor Location
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.7.3.6
+			</td>
+							<td class="obj-col" colspan="2">essTemperatureSensorLocation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.7.3.8
+			</td>
+							<td class="obj-col" colspan="2">essTemperatureSensorXOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.7.3.9
+			</td>
+							<td class="obj-col" colspan="2">essTemperatureSensorYOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.7.3.10
+			</td>
+							<td class="obj-col" colspan="2">essTemperatureSensorZOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.3.3
+: Retrieve Temperature Sensor Identity
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.7.3.11
+			</td>
+							<td class="obj-col" colspan="2">essTemperatureSensorEntityID</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.3.4
+: Configure Temperature Sensor Location
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Set tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.7.3.6
+			</td>
+							<td class="obj-col" colspan="2">essTemperatureSensorLocation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.7.3.8
+			</td>
+							<td class="obj-col" colspan="2">essTemperatureSensorXOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.7.3.9
+			</td>
+							<td class="obj-col" colspan="2">essTemperatureSensorYOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.7.3.10
+			</td>
+							<td class="obj-col" colspan="2">essTemperatureSensorZOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.3.5
+: Retrieve Air Temperature
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.7.3.3
+			</td>
+							<td class="obj-col" colspan="2">essAirTemperature</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.3.6
+: Retrieve Daily Minimum and Maximum Temperature
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.7.6
+			</td>
+							<td class="obj-col" colspan="2">essMaxTemp</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.7.7
+			</td>
+							<td class="obj-col" colspan="2">essMinTemp</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.4.1
+: Determine Number of Humidity Sensors
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.25
+			</td>
+							<td class="obj-col" colspan="2">humiditySensorTableNumSensors</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.4.2
+: Retrieve Humidity Sensor Location
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.27.5
+			</td>
+							<td class="obj-col" colspan="2">humiditySensorLocation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.27.11
+			</td>
+							<td class="obj-col" colspan="2">humiditySensorXOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.27.12
+			</td>
+							<td class="obj-col" colspan="2">humiditySensorYOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.27.13
+			</td>
+							<td class="obj-col" colspan="2">humiditySensorZOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.4.3
+: Retrieve Humidity Sensor Identity
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.27.14
+			</td>
+							<td class="obj-col" colspan="2">humiditySensorEntityID</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.4.4
+: Configure Humidity Sensor Location
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Set tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.27.5
+			</td>
+							<td class="obj-col" colspan="2">humiditySensorLocation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.27.11
+			</td>
+							<td class="obj-col" colspan="2">humiditySensorXOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.27.12
+			</td>
+							<td class="obj-col" colspan="2">humiditySensorYOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.27.13
+			</td>
+							<td class="obj-col" colspan="2">humiditySensorZOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.4.5
+: Configure Humidity Sensor Temperature
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Set tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.27.8
+			</td>
+							<td class="obj-col" colspan="2">humiditySensorTemperatureInformation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.4.6
+: Retrieve Relative Humidity
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.27.7
+			</td>
+							<td class="obj-col" colspan="2">humiditySensorRelativeHumidity</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.27.8
+			</td>
+							<td class="obj-col" colspan="2">humiditySensorTemperatureInformation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.27.9
+			</td>
+							<td class="obj-col" colspan="2">humiditySensorWetbulbTemp</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.27.10
+			</td>
+							<td class="obj-col" colspan="2">humiditySensorDewpointTemp</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.5.1
+: Determine Number of Precipitation Sensors
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.22
+			</td>
+							<td class="obj-col" colspan="2">precipitationSensorTableNumSensors</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.5.2
+: Retrieve Precipitation Sensor Location
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.24.5
+			</td>
+							<td class="obj-col" colspan="2">precipitationSensorLocation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.24.26
+			</td>
+							<td class="obj-col" colspan="2">precipitationSensorXOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.24.27
+			</td>
+							<td class="obj-col" colspan="2">precipitationSensorYOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.24.28
+			</td>
+							<td class="obj-col" colspan="2">precipitationSensorZOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.5.3
+: Retrieve Precipitation Sensor Identity
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.24.29
+			</td>
+							<td class="obj-col" colspan="2">precipitationSensorEntityID</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.5.4
+: Configure Precipitation Sensor Location
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Set tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.24.5
+			</td>
+							<td class="obj-col" colspan="2">precipitationSensorLocation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.24.26
+			</td>
+							<td class="obj-col" colspan="2">precipitationSensorXOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.24.27
+			</td>
+							<td class="obj-col" colspan="2">precipitationSensorYOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.24.28
+			</td>
+							<td class="obj-col" colspan="2">precipitationSensorZOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.5.5
+: Configure Precipitation Total User-Specified Period
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Set tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.24.7
+			</td>
+							<td class="obj-col" colspan="2">precipitationSensorPeriod</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.5.6
+: Retrieve Precipitation Presence
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.24.11
+			</td>
+							<td class="obj-col" colspan="2">precipitationSensorPrecipYesNo</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.5.7
+: Retrieve Precipitation Rates
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.24.12
+			</td>
+							<td class="obj-col" colspan="2">precipitationSensorPrecipRate</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.24.13
+			</td>
+							<td class="obj-col" colspan="2">precipitationSensorSnowfallAccumRate</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.24.24
+			</td>
+							<td class="obj-col" colspan="2">precipitationSensorPrecipStartTimeV5</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.24.25
+			</td>
+							<td class="obj-col" colspan="2">precipitationSensorPrecipEndTimeV5</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.5.8
+: Retrieve Precipitation Totals
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.24.18
+			</td>
+							<td class="obj-col" colspan="2">precipitationSensorPrecipitationOneHour</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.24.19
+			</td>
+							<td class="obj-col" colspan="2">precipitationSensorPrecipitationThreeHours</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.24.20
+			</td>
+							<td class="obj-col" colspan="2">precipitationSensorPrecipitationSixHours</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.24.21
+			</td>
+							<td class="obj-col" colspan="2">precipitationSensorPrecipitationTwelveHours</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.24.22
+			</td>
+							<td class="obj-col" colspan="2">precipitationSensorPrecipitation24Hours</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.5.9
+: Retrieve Precipitation Totals - User Specified
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.24.7
+			</td>
+							<td class="obj-col" colspan="2">precipitationSensorPeriod</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.24.23
+			</td>
+							<td class="obj-col" colspan="2">precipitationSensorPrecipitationUserDefined</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.5.10
+: Retrieve Precipitation Type
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.24.14
+			</td>
+							<td class="obj-col" colspan="2">precipitationSensorPrecipSituation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.6.1
+: Determine Number of Solar Radiation Sensors
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.9.8
+			</td>
+							<td class="obj-col" colspan="2">radiationSensorTableNumSensors</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.6.2
+: Retrieve Solar Radiation Sensor Location
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.9.10.5
+			</td>
+							<td class="obj-col" colspan="2">radiationSensorLocation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.9.10.11
+			</td>
+							<td class="obj-col" colspan="2">radiationSensorXOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.9.10.12
+			</td>
+							<td class="obj-col" colspan="2">radiationSensorYOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.9.10.13
+			</td>
+							<td class="obj-col" colspan="2">radiationSensorZOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.6.3
+: Retrieve Solar Radiation Sensor Identity
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.9.10.14
+			</td>
+							<td class="obj-col" colspan="2">radiationSensorEntityID</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.6.4
+: Configure Solar Radiation Sensor Location
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Set tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.9.10.5
+			</td>
+							<td class="obj-col" colspan="2">radiationSensorLocation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.9.10.11
+			</td>
+							<td class="obj-col" colspan="2">radiationSensorXOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.9.10.12
+			</td>
+							<td class="obj-col" colspan="2">radiationSensorYOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.9.10.13
+			</td>
+							<td class="obj-col" colspan="2">radiationSensorZOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.6.5
+: Retrieve Solar Radiation
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							4.2.9
+: Retrieve Solar Radiation
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.9.7
+			</td>
+							<td class="obj-col" colspan="2">essTotalRadiationPeriod</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.9.8
+			</td>
+							<td class="obj-col" colspan="2">radiationSensorTableNumSensors</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.9.10.7
+			</td>
+							<td class="obj-col" colspan="2">essTotalSunV4</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.9.10.8
+			</td>
+							<td class="obj-col" colspan="2">essInstantaneousTerrestrialRadiationV4</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.9.10.9
+			</td>
+							<td class="obj-col" colspan="2">essInstantaneousSolarRadiationV4</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.9.10.10
+			</td>
+							<td class="obj-col" colspan="2">essTotalRadiationV4</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.7.1
+: Determine Number of Visibility Sensors
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.10.2
+			</td>
+							<td class="obj-col" colspan="2">essNumVisibilitySensors</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.7.2
+: Retrieve Visibility Sensor Location
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.10.10.2
+			</td>
+							<td class="obj-col" colspan="2">essVisibilitySensorLocation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.10.10.3
+			</td>
+							<td class="obj-col" colspan="2">essVisibilitySensorXOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.10.10.4
+			</td>
+							<td class="obj-col" colspan="2">essVisibilitySensorYOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.10.10.5
+			</td>
+							<td class="obj-col" colspan="2">essVisibilitySensorZOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.10.10.6
+			</td>
+							<td class="obj-col" colspan="2">essVisibilitySensorDirection</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.7.3
+: Retrieve Visibility Sensor Identity
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.10.10.7
+			</td>
+							<td class="obj-col" colspan="2">essVisibilitySensorEntityID</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.7.4
+: Configure Visibility Sensor Location
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Set elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.10.10.2
+			</td>
+							<td class="obj-col" colspan="2">essVisibilitySensorLocation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.10.10.3
+			</td>
+							<td class="obj-col" colspan="2">essVisibilitySensorXOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.10.10.4
+			</td>
+							<td class="obj-col" colspan="2">essVisibilitySensorYOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.10.10.5
+			</td>
+							<td class="obj-col" colspan="2">essVisibilitySensorZOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.10.10.6
+			</td>
+							<td class="obj-col" colspan="2">essVisibilitySensorDirection</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.7.5
+: Retrieve Visibility
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.10.10.8
+			</td>
+							<td class="obj-col" colspan="2">essVisibilitySensorCurrentReading</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.8.1
+: Determine Number of Pavement Sensors
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.1
+			</td>
+							<td class="obj-col" colspan="2">numEssPavementSensors</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.8.2
+: Retrieve Pavement Sensor Location
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.2
+			</td>
+							<td class="obj-col" colspan="2">essPavementSensorLocation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.28
+			</td>
+							<td class="obj-col" colspan="2">essPavementMonitorXOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.29
+			</td>
+							<td class="obj-col" colspan="2">essPavementMonitorYOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.30
+			</td>
+							<td class="obj-col" colspan="2">essPavementMonitorZOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.31
+			</td>
+							<td class="obj-col" colspan="2">essPavementMonitorArea</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.32
+			</td>
+							<td class="obj-col" colspan="2">essPavementSensorXOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.33
+			</td>
+							<td class="obj-col" colspan="2">essPavementSensorYOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.8.3
+: Retrieve Pavement Sensor Identity
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.34
+			</td>
+							<td class="obj-col" colspan="2">essPavementSensorEntityID</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.8.4
+: Configure Pavement Sensor Location
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Set tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.2
+			</td>
+							<td class="obj-col" colspan="2">essPavementSensorLocation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.28
+			</td>
+							<td class="obj-col" colspan="2">essPavementMonitorXOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.29
+			</td>
+							<td class="obj-col" colspan="2">essPavementMonitorYOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.30
+			</td>
+							<td class="obj-col" colspan="2">essPavementMonitorZOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.32
+			</td>
+							<td class="obj-col" colspan="2">essPavementSensorXOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.33
+			</td>
+							<td class="obj-col" colspan="2">essPavementSensorYOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.8.5
+: Retrieve Pavement Sensor Metadata
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.2
+			</td>
+							<td class="obj-col" colspan="2">essPavementSensorLocation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.3
+			</td>
+							<td class="obj-col" colspan="2">essPavementType</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.5
+			</td>
+							<td class="obj-col" colspan="2">essPavementExposure</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.6
+			</td>
+							<td class="obj-col" colspan="2">essPavementSensorType</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.8.6
+: Configure Pavement Sensor Metadata
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Set tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.2
+			</td>
+							<td class="obj-col" colspan="2">essPavementSensorLocation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.3
+			</td>
+							<td class="obj-col" colspan="2">essPavementType</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.5
+			</td>
+							<td class="obj-col" colspan="2">essPavementExposure</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.8.7
+: Configure Passive Ice Detection Logic
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							4.2.7
+: Configure Passive Ice Detection Logic
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.1
+			</td>
+							<td class="obj-col" colspan="2">numEssTreatments</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.3.2
+			</td>
+							<td class="obj-col" colspan="2">essPaveTreatProductType</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.3.3
+			</td>
+							<td class="obj-col" colspan="2">essPaveTreatProductForm</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.3.4
+			</td>
+							<td class="obj-col" colspan="2">essPercentProductMix</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.8.8
+: Retrieve Conditions for Freezing Algorithms - Active
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.8
+			</td>
+							<td class="obj-col" colspan="2">essSurfaceTemperature</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.9
+			</td>
+							<td class="obj-col" colspan="2">essPavementTemperature</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.13
+			</td>
+							<td class="obj-col" colspan="2">essSurfaceFreezePoint</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.14
+			</td>
+							<td class="obj-col" colspan="2">essSurfaceBlackIceSignal</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.15
+			</td>
+							<td class="obj-col" colspan="2">essPavementSensorError</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.16
+			</td>
+							<td class="obj-col" colspan="2">essSurfaceIceOrWaterDepth</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.19
+			</td>
+							<td class="obj-col" colspan="2">pavementSensorTemperatureDepth</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.8.9
+: Retrieve Conditions for Freezing Algorithms - Passive
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							4.2.5
+: Retrieve Icing Conditions—Passive
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.8
+			</td>
+							<td class="obj-col" colspan="2">essSurfaceTemperature</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.9
+			</td>
+							<td class="obj-col" colspan="2">essPavementTemperature</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.11
+			</td>
+							<td class="obj-col" colspan="2">essSurfaceSalinity</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.13
+			</td>
+							<td class="obj-col" colspan="2">essSurfaceFreezePoint</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.14
+			</td>
+							<td class="obj-col" colspan="2">essSurfaceBlackIceSignal</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.15
+			</td>
+							<td class="obj-col" colspan="2">essPavementSensorError</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.16
+			</td>
+							<td class="obj-col" colspan="2">essSurfaceIceOrWaterDepth</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.17
+			</td>
+							<td class="obj-col" colspan="2">essSurfaceConductivityV2</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.19
+			</td>
+							<td class="obj-col" colspan="2">pavementSensorTemperatureDepth</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.1
+			</td>
+							<td class="obj-col" colspan="2">numEssTreatments</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.3.2
+			</td>
+							<td class="obj-col" colspan="2">essPaveTreatProductType</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.3.3
+			</td>
+							<td class="obj-col" colspan="2">essPaveTreatProductForm</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.3.4
+			</td>
+							<td class="obj-col" colspan="2">essPercentProductMix</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.8.10
+: Retrieve Pavement Surface Temperature
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.8
+			</td>
+							<td class="obj-col" colspan="2">essSurfaceTemperature</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.15
+			</td>
+							<td class="obj-col" colspan="2">essPavementSensorError</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.8.11
+: Retrieve Pavement Surface Condition
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.15
+			</td>
+							<td class="obj-col" colspan="2">essPavementSensorError</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.22
+			</td>
+							<td class="obj-col" colspan="2">pavementSensorSurfaceCondition</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.8.12
+: Retrieve Forecasted Pavement Surface Condition
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.23
+			</td>
+							<td class="obj-col" colspan="2">pavementSensorForecastCondition</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.8.13
+: Retrieve Roadway Friction Coefficient
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.24
+			</td>
+							<td class="obj-col" colspan="2">pavementSensorFrictionCoefficient</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.8.14
+: Retrieve Ice Percentage
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.27
+			</td>
+							<td class="obj-col" colspan="2">pavementIcePercentage</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.8.15
+: Retrieve Adjacent Snow Depth
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.24.8
+			</td>
+							<td class="obj-col" colspan="2">precipitationSensorAdjacentSnowDepth</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.8.16
+: Retrieve Roadway Snow Depth
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.24.9
+			</td>
+							<td class="obj-col" colspan="2">precipitationSensorRoadwaySnowDepth</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.24.10
+			</td>
+							<td class="obj-col" colspan="2">precipitationSensorRoadwaySnowPackDepth</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.8.17
+: Retrieve Roadway Ice Thickness
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.3.16
+			</td>
+							<td class="obj-col" colspan="2">essSurfaceIceOrWaterDepth</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.9.1
+: Determine Number of Subsurface Sensors
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.4
+			</td>
+							<td class="obj-col" colspan="2">numEssSubSurfaceSensors</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.9.2
+: Retrieve Subsurface Sensor Location
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.6.2
+			</td>
+							<td class="obj-col" colspan="2">essSubSurfaceSensorLocation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.6.12
+			</td>
+							<td class="obj-col" colspan="2">essSubSurfaceSensorXOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.6.13
+			</td>
+							<td class="obj-col" colspan="2">essSubSurfaceSensorYOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.9.3
+: Retrieve Subsurface Sensor Identity
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.6.6
+			</td>
+							<td class="obj-col" colspan="2">essSubSurfaceSensorEntityID</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.9.4
+: Configure Subsurface Sensor Location
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Set tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.6.2
+			</td>
+							<td class="obj-col" colspan="2">essSubSurfaceSensorLocation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.6.12
+			</td>
+							<td class="obj-col" colspan="2">essSubSurfaceSensorXOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.6.13
+			</td>
+							<td class="obj-col" colspan="2">essSubSurfaceSensorYOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.9.5
+: Retrieve Subsurface Sensor Metadata
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.6.2
+			</td>
+							<td class="obj-col" colspan="2">essSubSurfaceSensorLocation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.6.3
+			</td>
+							<td class="obj-col" colspan="2">essSubSurfaceType</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.6.4
+			</td>
+							<td class="obj-col" colspan="2">essSubSurfaceSensorDepth</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.9.6
+: Configure Subsurface Sensor Metadata
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Set tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.6.2
+			</td>
+							<td class="obj-col" colspan="2">essSubSurfaceSensorLocation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.6.3
+			</td>
+							<td class="obj-col" colspan="2">essSubSurfaceType</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.6.4
+			</td>
+							<td class="obj-col" colspan="2">essSubSurfaceSensorDepth</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.9.7
+: Retrieve Subsurface Temperature
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.6.5
+			</td>
+							<td class="obj-col" colspan="2">essSubSurfaceTemperature</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.6.8
+			</td>
+							<td class="obj-col" colspan="2">essSubSurfaceSensorError</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.9.8
+: Retrieve Subsurface Moisture
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.11.6.7
+			</td>
+							<td class="obj-col" colspan="2">essSubSurfaceMoisture</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.10.1
+: Determine Number of Air Quality Sensors
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.14.10
+			</td>
+							<td class="obj-col" colspan="2">airQualitySensorTableNumSensors</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.10.2
+: Retrieve Air Quality Sensor Location
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.14.12.5
+			</td>
+							<td class="obj-col" colspan="2">airQualitySensorLocation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.14.12.7
+			</td>
+							<td class="obj-col" colspan="2">airQualitySensorXOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.14.12.8
+			</td>
+							<td class="obj-col" colspan="2">airQualitySensorYOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.14.12.9
+			</td>
+							<td class="obj-col" colspan="2">airQualitySensorZOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.10.3
+: Retrieve Air Quality Sensor Identity
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.14.12.10
+			</td>
+							<td class="obj-col" colspan="2">airQualitySensorEntityID</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.10.4
+: Configure Air Quality Sensor Location
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Set tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.14.12.5
+			</td>
+							<td class="obj-col" colspan="2">airQualitySensorLocation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.14.12.7
+			</td>
+							<td class="obj-col" colspan="2">airQualitySensorXOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.14.12.8
+			</td>
+							<td class="obj-col" colspan="2">airQualitySensorYOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.14.12.9
+			</td>
+							<td class="obj-col" colspan="2">airQualitySensorZOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.10.5
+: Retrieve Carbon Monoxide Reading
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.14.1
+			</td>
+							<td class="obj-col" colspan="2">essCO</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.10.6
+: Retrieve Nitrogen Dioxide Reading
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.14.4
+			</td>
+							<td class="obj-col" colspan="2">essNO2</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.10.7
+: Retrieve Sulfur Dioxide Reading
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.14.5
+			</td>
+							<td class="obj-col" colspan="2">essSO2</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.10.8
+: Retrieve Small Particulate Matter Reading
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.14.7
+			</td>
+							<td class="obj-col" colspan="2">essPM10</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.10.9
+: Retrieve Particulate Matter 2.5 Reading
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.14.9
+			</td>
+							<td class="obj-col" colspan="2">essPM25</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.10.10
+: Retrieve Particulate Matter 1.0 Reading
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.14.16
+			</td>
+							<td class="obj-col" colspan="2">essPM1</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.10.11
+: Retrieve Carbon Dioxide Reading
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.14.13
+			</td>
+							<td class="obj-col" colspan="2">essCO2V4</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.10.12
+: Retrieve Nitric Oxide Reading
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.14.14
+			</td>
+							<td class="obj-col" colspan="2">essNOV4</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.10.13
+: Retrieve Ozone Reading
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.14.15
+			</td>
+							<td class="obj-col" colspan="2">essO3V4</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.11.1
+: Determine Number of Water Level Sensors
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.19
+			</td>
+							<td class="obj-col" colspan="2">waterLevelSensorTableNumSensors</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.11.2
+: Retrieve Water Level Sensor Location
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.21.7
+			</td>
+							<td class="obj-col" colspan="2">waterLevelSensorLocation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.21.9
+			</td>
+							<td class="obj-col" colspan="2">waterLevelSensorReferencePoint</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.21.10
+			</td>
+							<td class="obj-col" colspan="2">waterLevelSensorXOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.21.11
+			</td>
+							<td class="obj-col" colspan="2">waterLevelSensorYOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.21.12
+			</td>
+							<td class="obj-col" colspan="2">waterLevelSensorZOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.11.3
+: Retrieve Water Level Sensor Identity
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.21.13
+			</td>
+							<td class="obj-col" colspan="2">waterLevelSensorEntityID</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.11.4
+: Retrieve Water Level Sensor Warning Level
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.21.3
+			</td>
+							<td class="obj-col" colspan="2">waterLevelSensorWarningLevel</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.11.5
+: Configure Water Level Sensor Location
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Set tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.21.7
+			</td>
+							<td class="obj-col" colspan="2">waterLevelSensorLocation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.21.9
+			</td>
+							<td class="obj-col" colspan="2">waterLevelSensorReferencePoint</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.21.10
+			</td>
+							<td class="obj-col" colspan="2">waterLevelSensorXOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.21.11
+			</td>
+							<td class="obj-col" colspan="2">waterLevelSensorYOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.21.12
+			</td>
+							<td class="obj-col" colspan="2">waterLevelSensorZOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.11.6
+: Configure Water Level Sensor Warning Level
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Set tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.21.3
+			</td>
+							<td class="obj-col" colspan="2">waterLevelSensorWarningLevel</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.11.7
+: Retrieve Water Level
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.19
+			</td>
+							<td class="obj-col" colspan="2">waterLevelSensorTableNumSensors</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.21.2
+			</td>
+							<td class="obj-col" colspan="2">waterLevelSensorReading</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.12.1
+: Retrieve Wind Situation
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.6.5
+			</td>
+							<td class="obj-col" colspan="2">essWindSituation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.12.2
+: Retrieve Precipitation Situation
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.8.9
+			</td>
+							<td class="obj-col" colspan="2">essPrecipSituation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.12.3
+: Retrieve Visibility Situation
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.10.3
+			</td>
+							<td class="obj-col" colspan="2">essVisibilitySituation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.12.4
+: Retrieve Cloud Situation
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.9.11
+			</td>
+							<td class="obj-col" colspan="2">essCloudSituationV4</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.12.5
+: Retrieve Ground State
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.12.4
+			</td>
+							<td class="obj-col" colspan="2">essMobileObservationGroundStateV4</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.12.6
+: Retrieve Pavement State
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.12.5
+			</td>
+							<td class="obj-col" colspan="2">essMobileObservationPavementV4</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.13.1
+: Determine Number of Snapshot Cameras
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.16.1
+			</td>
+							<td class="obj-col" colspan="2">essSnapshotNumberOfCameras</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.13.2
+: Retrieve Snapshot Camera Identity
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.16.3.10
+			</td>
+							<td class="obj-col" colspan="2">essSnapshotCameraEntityID</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.13.3
+: Determine Supported Image Storage Formats
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.16.3.7
+			</td>
+							<td class="obj-col" colspan="2">essSnapshotCameraSupportedFormats</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.13.4
+: Configure Snapshot Camera
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Set tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.16.3.2
+			</td>
+							<td class="obj-col" colspan="2">essSnapshotCameraDescription</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.16.3.8
+			</td>
+							<td class="obj-col" colspan="2">essSnapshotCameraFileFormat</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.16.3.9
+			</td>
+							<td class="obj-col" colspan="2">essSnapshotCameraFilenameV5</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.13.5
+: Retrieve Snapshot Camera Configuration
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get tabular data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.16.3.2
+			</td>
+							<td class="obj-col" colspan="2">essSnapshotCameraDescription</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.16.3.3
+			</td>
+							<td class="obj-col" colspan="2">essSnapshotCameraStoragePath</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.16.3.8
+			</td>
+							<td class="obj-col" colspan="2">essSnapshotCameraFileFormat</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.16.3.9
+			</td>
+							<td class="obj-col" colspan="2">essSnapshotCameraFilenameV5</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.13.6
+: Capture Snapshot Image
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							4.2.1
+: Capture Snapshot Image
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.16.3.4
+			</td>
+							<td class="obj-col" colspan="2">essSnapshotCameraCommand</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.16.3.5
+			</td>
+							<td class="obj-col" colspan="2">essSnapshotCameraError</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.13.7
+: Retrieve Snapshot
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							4.2.2
+: Retrieve Snapshot
+				</td>
+			</tr>
+			
+			
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.2.13.8
+: Delete Snapshot
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							4.2.3
+: Delete Snapshot
+				</td>
+			</tr>
+			
+			
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.3.1.1
+: Retrieve Pavement Treatment System Location
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.23
+			</td>
+							<td class="obj-col" colspan="2">essPavementTreatmentLocation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.28
+			</td>
+							<td class="obj-col" colspan="2">ptsXOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.29
+			</td>
+							<td class="obj-col" colspan="2">ptsYOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.3.1.2
+: Retrieve Pavement Treatment System Identity
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.30
+			</td>
+							<td class="obj-col" colspan="2">ptsEntityID</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.3.1.3
+: Configure Pavement Treatment System Location
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Set elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.23
+			</td>
+							<td class="obj-col" colspan="2">essPavementTreatmentLocation</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.28
+			</td>
+							<td class="obj-col" colspan="2">ptsXOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.29
+			</td>
+							<td class="obj-col" colspan="2">ptsYOffset</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.3.1.4
+: Retrieve Stationary Pavement Treatment Configuration
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							4.2.4
+: Retrieve Stationary Pavement Treatment Configuration
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.1
+			</td>
+							<td class="obj-col" colspan="2">numEssTreatments</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.3.2
+			</td>
+							<td class="obj-col" colspan="2">essPaveTreatProductType</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.3.3
+			</td>
+							<td class="obj-col" colspan="2">essPaveTreatProductForm</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.3.4
+			</td>
+							<td class="obj-col" colspan="2">essPercentProductMix</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.10
+			</td>
+							<td class="obj-col" colspan="2">ptsSignalDuration</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.18
+			</td>
+							<td class="obj-col" colspan="2">ptsMonitoringDetectors</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.3.1.5
+: Configure Stationary Pavement Treatment System
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							4.2.6
+: Configure Stationary Pavement Treatment System
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.1
+			</td>
+							<td class="obj-col" colspan="2">numEssTreatments</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.3.2
+			</td>
+							<td class="obj-col" colspan="2">essPaveTreatProductType</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.3.3
+			</td>
+							<td class="obj-col" colspan="2">essPaveTreatProductForm</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.3.4
+			</td>
+							<td class="obj-col" colspan="2">essPercentProductMix</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.10
+			</td>
+							<td class="obj-col" colspan="2">ptsSignalDuration</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.18
+			</td>
+							<td class="obj-col" colspan="2">ptsMonitoringDetectors</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.3.1.6
+: Configure Mobile Pavement Treatment System
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							4.2.8
+: Configure Mobile Pavement Treatment System
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.1
+			</td>
+							<td class="obj-col" colspan="2">numEssTreatments</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.3.2
+			</td>
+							<td class="obj-col" colspan="2">essPaveTreatProductType</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.3.3
+			</td>
+							<td class="obj-col" colspan="2">essPaveTreatProductForm</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.3.4
+			</td>
+							<td class="obj-col" colspan="2">essPercentProductMix</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.4
+			</td>
+							<td class="obj-col" colspan="2">essPaveTreatmentAmount</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.5
+			</td>
+							<td class="obj-col" colspan="2">essPaveTreatmentWidth</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.10
+			</td>
+							<td class="obj-col" colspan="2">ptsSignalDuration</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.3.1.7
+: Retrieve Mobile Pavement Treatment Configuration
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							4.2.10
+: Retrieve Mobile Pavement Treatment System
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.1
+			</td>
+							<td class="obj-col" colspan="2">numEssTreatments</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.3.2
+			</td>
+							<td class="obj-col" colspan="2">essPaveTreatProductType</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.3.3
+			</td>
+							<td class="obj-col" colspan="2">essPaveTreatProductForm</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.3.4
+			</td>
+							<td class="obj-col" colspan="2">essPercentProductMix</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.4
+			</td>
+							<td class="obj-col" colspan="2">essPaveTreatmentAmount</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.5
+			</td>
+							<td class="obj-col" colspan="2">essPaveTreatmentWidth</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.10
+			</td>
+							<td class="obj-col" colspan="2">ptsSignalDuration</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.3.2.1
+: Retrieve Pavement Treatment Status
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.9
+			</td>
+							<td class="obj-col" colspan="2">ptsSprayerState</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.11
+			</td>
+							<td class="obj-col" colspan="2">ptsSignalEventCount</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.13
+			</td>
+							<td class="obj-col" colspan="2">ptsActiveEventCount</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.14
+			</td>
+							<td class="obj-col" colspan="2">ptsInactiveEventCount</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.17
+			</td>
+							<td class="obj-col" colspan="2">ptsError</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.25
+			</td>
+							<td class="obj-col" colspan="2">ptsLastSignalEventTime</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.26
+			</td>
+							<td class="obj-col" colspan="2">ptsLastActiveEventTime</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.27
+			</td>
+							<td class="obj-col" colspan="2">ptsLastInactiveEventTime</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.3.2.2
+: Retrieve PTS Operational Mode
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Get elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.19
+			</td>
+							<td class="obj-col" colspan="2">ptsOperationalModeV3</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.3.4.1
+: Set PTS Operational Mode
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Set elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.19
+			</td>
+							<td class="obj-col" colspan="2">ptsOperationalModeV3</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+
+        	<tr>
+				<td class="newrow req-col" colspan="3">
+							3.5.3.4.2
+: Manually Activate PTS Sprayer
+				</td>
+				<td class="newrow dia-col" colspan="2">
+							ISO 26048-1
+: Set elemental data
+				</td>
+			</tr>
+			
+			
+						<tr>
+							<td class="mib-col">&nbsp;</td>
+							<td class="mib-col">		5.13.20
+			</td>
+							<td class="obj-col" colspan="2">ptsCommandStateV3</td>
+							<td class="obj-col">&nbsp;</td>
+						</tr>
+      </tbody>
+    </table>
+</body>
